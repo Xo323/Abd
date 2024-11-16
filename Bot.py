@@ -11,7 +11,7 @@ from urllib.error import URLError
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-TOKEN = '7990464757:AAHeS6D9rfGGYPRtTWwztC9baNFAqnY7dmo'
+TOKEN = '7990464757:D9rfGGYPRtTWwztC9baNFAqnY7dmo'
 
 async def get_video_formats(url):
     ydl_opts = {
